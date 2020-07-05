@@ -1,0 +1,492 @@
+/* CSS Document */
+/* original from uec社会連携センター
+body{
+	font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+	margin:0;
+	padding:0;
+	line-height:1em;
+	color:#000;
+}
+*/
+/*==========
+ h
+ ----------*/
+/*
+ h1{
+	 font-size:200%;
+	 text-align:center;
+ }
+ */
+/*
+ h2{
+	font-size:120%;
+	padding:10px;
+ }
+*/
+h4{
+	font-size:110%;
+	padding:5px 5px 5px 1em;
+/*	border:1px dotted #006083;
+*/	background-color:#d3def1;
+	border-radius: 5px;
+	font-weight:bold;
+	line-height:1.8;
+}
+h5{
+	font-size:100%;
+	padding:5px;
+	border-left:5px solid #99b2df;
+	font-weight:bold;
+	line-height:1.8;
+	margin-left:1em;
+}
+/*
+p{
+	width:90%;
+	line-height:1.8;
+	padding-left:1em;
+}
+*/
+a.pdf{
+	background-image:url(../images/ic_pdf.gif);
+	background-repeat: no-repeat;
+	background-position:left center;
+	padding:2em;
+}
+figcaption{
+	text-align:center;
+	font-size:80%;
+	line-height:1;
+}
+
+.red{
+	color:#b30000;
+}
+
+.page-title{
+	width:100%;
+	background-color:#006083;
+	color:#fff;
+	font-size:140%;
+	font-weight:bold;
+	border-radius: 5px;
+	text-shadow: 1px 1px 1px #333;
+	box-shadow:3px 3px 3px #ccc;
+}
+
+.chapter-title{
+	width:100%;
+	color:#000;
+	background-color:#f2f2f2;
+	font-size:120%;
+	font-weight:bold;
+	border-left:solid 5px #006083;
+	border-bottom:solid 1px #ccc;
+	border-top:solid 1px #ccc;
+	border-right:solid 1px #ccc;
+	padding:3px 0 3px 1em;
+	box-shadow:0 3px  3px #eee;
+	line-height:1.8;
+}
+.chapter{
+	width:90%;
+	margin:5px 0 2em 1em;
+}
+.chapter p{
+	padding:0 1em;
+	line-height:1.5;
+}
+.chapter img{
+	margin:1em;
+}
+.header_contents{
+	margin:0 0 10px 0;
+	position: relative;/*相対配置*/
+}
+
+
+.header_contents img {
+	width: 100%;
+}
+	
+.text{
+	position: absolute;
+    top: 20px;
+    right: 10px;
+    width: 50%;
+    color: darkred;
+    padding: 15px;
+    font-size: 20px;
+    line-height: 130%;
+}
+/* original from uec 社会連携センター
+.footer{
+	padding:1em 0 1em 0;
+	width:100%;
+	background-color:#006083;
+	color:#fff;
+}
+*/
+.sitemap-title{
+	border-left:5px solid #0096CC;
+	padding-left:5px;
+}
+.sitemap-title a{
+	color:#fff;
+}
+.sitemap li{
+	list-style:none;
+	line-height:1.5;
+	font-size:85%;
+}
+.sitemap li a{
+	text-decoration:none;
+	color:#fff;
+}
+.sitemap-title a:hover,.sitemap li a:hover{
+	text-decoration:underline;
+}
+
+.address{
+	text-align:center;
+	padding-top:10px;
+	border-top:1px solid #00384D;
+}
+
+/*==========
+ navbar
+ ----------*/
+.navbar-default{
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.88, #ccc), color-stop(0.00, #fefefe));
+	background: -webkit-linear-gradient(top, #fefefe 0%, #ccc 88%);
+	background: -moz-linear-gradient(top, #fefefe 0%, #ccc 88%);
+	background: -o-linear-gradient(top, #fefefe 0%, #ccc 88%);
+	background: -ms-linear-gradient(top, #fefefe 0%, #ccc 88%);
+	background: linear-gradient(to bottom, #fefefe 0%, #ccc 88%);
+}
+
+.navbar{
+	border:none;
+	background-color:#fff;
+	border-top:1px solid #ccc;
+	border-bottom:3px solid #006083;
+	border-radius:0 0 0 0;
+}
+
+.nav li a{
+	color:#000;
+/*
+	font-weight:bold;
+*/}
+.dropdown-menu li{
+	border-bottom:dotted 1px #ccc;
+}
+.dropdown-menu li a:hover{
+	background-color:#9CF;
+}
+
+/*==========
+ others
+ ----------*/
+.header_top{
+	width:100%;
+}
+.header_top img{
+	width:100%;
+	padding-top:1em;
+}
+.news{
+	height:360px;
+	overflow-y: scroll;
+}
+dt{
+	line-height:2;
+	padding-right:5px;
+}
+dd{
+	border-bottom:dotted 2px #ccc;
+	line-height:2;
+	margin-bottom:5px;
+}
+ul li{
+	list-style:none;
+	line-height:1.8;
+}
+.panel-body{
+	height:400px;
+	overflow-y: scroll;
+}
+.link{
+	border-top:1px solid #E0ECFF;
+	background-image:linear-gradient(transparent 95%, rgba(224, 236, 255, 1) 5%),linear-gradient(90deg,transparent 95%,rgba(224, 236, 255, 1) 5%);
+	background-repeat: repeat;
+	background-size: 10px 10px;
+	padding:20px 0;
+}
+
+.link img{
+	width:100%;
+	border:1px solid #ccc;
+	margin:5px;
+}
+.menu_panel{
+	width:100%;
+	background-color:#E0ECFF;
+	border-top:3em solid #E0ECFF;
+}
+.panel_link{
+	display:block;
+	text-align:right;
+	}
+.right-align{
+	text-align:right;
+}
+.float-right{
+	float:right;
+}
+.font-small{
+	font-size:80%;
+}
+.name{
+	padding:1.5em 0 0 1em;
+	font-weight:bold;
+	line-height:2em;
+}
+.occupation{
+	padding:5px 0 10px 1em;
+	color:#666;
+	font-size:small;
+	line-height:1.5;
+}
+.list{
+	width:100%;
+	border-bottom:1px dotted #ccc;
+	padding:1em 0;
+}
+.list img{
+	margin:1em;
+	border:1px solid #999;
+}
+.photo_bottom figure{
+	display:inline-block;
+	margin:0 auto;
+}
+.photo_bottom figure figcaption{
+	font-size:80%;
+	text-align:center;	
+}
+.photo_bottom figure img{
+	text-align:top;
+	padding:0 1em;
+}
+.vol_scroll{
+	height:300px;
+	overflow-y:scroll;
+	padding:0 1em;
+	border:1px solid #ccc;
+}
+
+/* table */
+.table_detail{
+	border:1px solid #999;
+	width:90%;
+	margin:0 auto;
+	margin-bottom:1em;
+}
+.table_detail tr,th,td{
+	border:1px solid #999;
+	/*padding:1em;*/
+}
+.table_detail th{
+	width:15%;
+	background-color:#b0c4de;
+}
+.table_detail td{
+	line-height:1.6;
+}
+.kouza_border{
+	width:100%;
+	border-bottom:2px dotted #ccc;
+	text-align:right;
+}
+.kouza_border a:hover{
+    text-decoration: none;
+}
+.square_btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #6495ed;/*ボタン色*/
+    color: #FFF;
+	font-weight: bold;
+    border-bottom: solid 4px #4682b4;
+    border-radius: 3px;
+	margin-bottom:1em;
+}
+.square_btn:hover {
+	cursor: pointer;
+	text-decoration:underline;
+	background:#4682b4;
+}
+.square_btn:active {/*ボタンを押したとき*/
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+    border-bottom: none;
+	font-weight: bold;
+    text-decoration: underline;
+	
+}
+.kouza_table{
+	border:1px solid #999;
+	width:90%;
+	margin:0 auto;
+	margin-bottom:1em;
+}
+.kouza_table th{
+	background-color:#b0c4de;
+}
+.kouza_table td{
+	background-color:#fff;
+}
+.toy_table{
+	border:1px solid #999;
+	width:90%;
+	margin:0 auto;
+	margin-bottom:1em;
+}
+.toy_table th{
+	background-color:#b0c4de;
+}
+.toy_table td{
+	background-color:#fff;
+}
+
+.accordion {
+	margin: 0 auto;
+	padding: 10px;
+}
+/*
+.accordion .ac-content {
+	margin: 0 10px;
+}
+*/
+.accordion input {
+	display: none;
+}
+.accordion label {
+	display: block;
+	background: #D3DEF1;
+	cursor: pointer;
+	padding: 10px;
+	border-bottom: 1px solid #fff;
+}
+.accordion label:hover {
+	background: #ccc;
+}
+.accordion .ac-cont {
+	transition: 0.2s;
+	height: 0;
+	overflow: hidden;
+	background: #fff;
+	padding: 0 10px;
+}
+.accordion input:checked + .ac-cont {
+	height: auto;
+	padding: 10px;
+}
+.rep{
+	border:solid 1px #ddd;
+	padding:1em 2em 2em 2em;
+}
+.photo_right{
+	float:right;
+	width:20%;
+		}
+.photo_right img{
+	padding:1em 1em 0 1em;
+	}
+.photo_report{
+	margin:1em;
+}
+.photo_report img{
+	margin:1em;
+}
+.panel-heading{
+	font-weight:bold;
+}
+.panel-body{
+	height:auto;
+}
+.panel-footer{
+	background-color:#D3DEF1;
+}
+.panel-footer a{
+	color:#333;
+}
+.ph_img_right{
+	display:inline-block;
+	width:200px;
+	float:right;
+}
+.ph_img_right img{
+	margin:2px;
+
+}
+.nav-justified li{
+	background-color:#d3def1;
+	border:1px solid #fff;
+	border-radius:5px;
+}
+
+.nav-justified li a{
+	background-color:#d3def1;
+}
+.nav-justified li.active a{
+	background-color:#d985a4;
+}
+
+.jt-staff{
+	background: url(../../images/toydoctor.jpg) 0 0 no-repeat;
+    background-size: 100% auto;
+}
+.hatsumei_entry{
+	text-align:center;
+}
+.form_button{
+	text-align: center;
+	line-height: 2;
+}
+
+.hatsumei-list{
+	display:inline;
+}
+.report-list li{
+	display:inline-block;
+	margin:1em;
+}
+.caffe_poster{
+	border:1px solid #ccc;
+}
+.date{
+	font-size:80%;
+	float:right;
+	font-weight:lighter;
+}
+.report-frame{
+	border:solid 1px #666;
+	width:90%;
+	margin:0 auto 1em;
+}
+.report-frame h4{
+	margin: 0;
+	background-color:lightsteelblue;
+	font-weight:500;
+	border-radius: 0;
+	border-bottom:1px solid #666;
+}
+.kyosai{
+	text-align:right;
+	color:royalblue;
+}
