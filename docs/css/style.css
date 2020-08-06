@@ -142,18 +142,18 @@ img{
 }
 
 /* table property for history.html */
-table, td, th {
+.history_table table, td, th {
   border: 1px solid black;
 }
 
-table {
+.history_table table {
   border-collapse: collapse;
   width: 100%;
 }
-td:nth-child(1) {  
+.history_table td:nth-child(1) {  
   width: 100px;
 }
-td, th {
+.history_table td, th {
 padding: 5px 10px;
 }
 
