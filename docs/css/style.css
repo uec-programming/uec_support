@@ -142,21 +142,23 @@ img{
 }
 
 /* table property for history.html */
+
 .history_table table, td, th {
-  border: 1px solid black;
+    border: 1px solid black;
 }
 
-.history_table table {
-  border-collapse: collapse;
-  width: 100%;
+.history_table {
+    width: 100%;
+    table-layout: auto;
+    border-collapse: collapse;
 }
-.history_table td:nth-child(1) {  
-  width: 100px;
+.history_table th{  
+    text-align: center;
+    width: 70px;
 }
 .history_table td, th {
-padding: 5px 10px;
+    padding: 5px 10px;
 }
-
 
 @media (max-width: 767px){/*スマートフォン向けCSS*/
 
