@@ -141,6 +141,22 @@ img{
     border: none;
 }
 
+/* table property for history.html */
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td:nth-child(1) {  
+  width: 100px;
+}
+td, th {
+padding: 5px 10px;
+}
+
 
 @media (max-width: 767px){/*スマートフォン向けCSS*/
 
