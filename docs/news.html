@@ -9,10 +9,11 @@
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="./css/base.css" rel="stylesheet" type="text/css">
         <link href="./css/style.css" rel="stylesheet" type="text/css">
+        <script src="./news.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     </head>
-    <body>
+    <body onload="showYearNews()">
         <div class="wrapper">
             <!-- タイトル -->
             <div class="header_top" >
@@ -49,31 +50,11 @@
             <!--ヘッダーここまで-->
             <div class="main-container">
               <!--メイン-->
-              <main>
-                  <h2>News</h2>
-                  　<p class="new-item">2022.5.25<br>
-                      第5回(2022年度)通常総会を開催しました。</p>
-                  　<p class="new-item">2022.5.20<br>
-                      <a href="https://sites.google.com/view/super-daigaku/uniic%E4%BC%81%E6%A5%AD%E3%81%A8%E5%AD%A6%E7%94%9F%E3%81%AE%E4%BA%A4%E6%B5%81/uniicinc%E9%96%8B%E5%82%AC%E6%A1%88%E5%86%85?authuser=0">第13回UNIIC/INCイノベーション・ネットワーク・カフェ</a>にて、第3回学力向上アプリコンテストの案内及び電気通信大学プログラミング教室講師募集の案内を行いました。<br>
-                  　<p class="new-item">2022.4.1<br>
-                      <a href="https://www.gakuryokuup.com/">第3回学力向上アプリコンテスト</a>のエントリーを開始しました。<br>
-                      エントリー期間は4月1日〜9月26日です。たくさんのご応募をお待ちしております。</p>
-                　 <p class="new-item">2022.3.20<br>
-                      <a href="https://www.uec-programming.com/">電気通信大学プログラミング教室／ｕｅｃプログラミング教室</a>の入会説明会を開催しました。</p>
-                  　<p class="new-item">2022.2.20<br>
-                      <a href="https://www.uec-programming.com/">電気通信大学プログラミング教室／ｕｅｃプログラミング教室</a>の入会説明会を開催しました。<br>
-                      次回の説明会は2022年3月20日(日)14：00～15：00にオンラインにて開催します。詳細は <a href="https://www.uec-programming.com/2022/02/21/information_session20220320/">こちら</a></p>
-                　 <p class="new-item">2022.1.16<br>
-                      <a href="https://www.uec-programming.com/">電気通信大学プログラミング教室／ｕｅｃプログラミング教室</a>の入会説明会を開催しました。<br>
-                      次回の説明会は2022年2月20日(日)14：00～15：00にオンラインにて開催します。詳細は <a href="https://www.uec-programming.com/2022/01/18/information_session20220220/">こちら</a></p>
-              </main>
+              <main id="js-news"><!--JSによりニュースが自動挿入--></main>
               <!--メインここまで-->
               <div class="sidebar">
                 <h2>アーカイブ</h2>
-                <ul>
-                  <li><a href="news-2022.html">2022年</a></li>
-                  <li><a href="news-2021.html">2021年</a></li>
-                  <li><a href="news-2020.html">2020年</a></li>
+                <ul id="js-archive-list">
                 </ul>
               </div>
             </div>
