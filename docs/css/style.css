@@ -12,7 +12,7 @@ html * {
 
 body{
     margin: 0 0 0 0;
-    background-color: mintcream; 
+    background-color: mintcream;
 }
 /*
 .wrapper{
@@ -82,11 +82,11 @@ img{
 }
 .navi ul{
     margin: 0 0 0 0;
-    padding: 15px 10px 10px 20px;    
-    
+    padding: 15px 10px 10px 20px;
+
     background-image: url(../images/menu-bg.png);
-    background-repeat: repeat-x;  
-    
+    background-repeat: repeat-x;
+
 }
 .navi a:link{
     columns: #3c454d;
@@ -121,7 +121,7 @@ img{
 .keyvisual{
     text-align: center;
     margin: 15px 0 0 0 ;
-    
+
 }
 .news-item{
     margin: 0;
@@ -152,7 +152,7 @@ img{
     table-layout: auto;
     border-collapse: collapse;
 }
-.history_table th{  
+.history_table th{
     text-align: center;
     width: 70px;
 }
@@ -171,6 +171,26 @@ img{
         margin: 30px 0;
     }
 */
+  .main-container {
+    flex-direction: column;
+  }
+
 }
 
 
+/* サイドバー */
+.main-container {
+  display: flex;
+  gap: 32px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.main-container>main {
+  flex: 1;
+}
+.sidebar {
+  width: 200px;
+}
+.sidebar ul {
+  padding: 1em;
+}
