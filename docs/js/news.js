@@ -1,5 +1,10 @@
 const newsList = [
   {
+    date: '2022.9.18',
+    body: `<a href="https://www.uec-programming.com/">電気通信大学プログラミング教室／ｕｅｃプログラミング教室</a>の入会説明会を開催しました。
+    次回の説明会は2022年10月16日(日)14：00～15：00にオンラインにて開催します。詳細は<a href = "https://www.uec-programming.com/2022/09/20/information_session20221016/">こちら</a>`,
+  },
+  {
     date: '2022.5.25',
     body: `第5回(2022年度)通常総会を開催しました。`,
   },
