@@ -1,5 +1,14 @@
 const newsList = [
  {
+    date: '2023.3.19',
+    body: `<a href="https://www.gakuryokuup.com/">第4回学力向上アプリコンテスト</a>のHPを公開しました。<br>
+            エントリー期間は4月1日〜8月27日です。たくさんのご応募をお待ちしております。`,
+  },
+ {
+    date: '2023.2.19',
+   body: `<a href="https://www.uec-programming.com/">電気通信大学プログラミング教室／ｕｅｃプログラミング教室</a>の入会説明会を開催しました。`,
+  },
+ {
     date: '2023.1.15',
    body: `<a href="https://www.uec-programming.com/">電気通信大学プログラミング教室／ｕｅｃプログラミング教室</a>の入会説明会を開催しました。<br>
     次回の説明会は2023年2月19日(日)14：00～15：00にオンラインにて開催します。詳細は<a href = "https://www.uec-programming.com/2023/01/16/information_session20230219/">こちら</a>`,
