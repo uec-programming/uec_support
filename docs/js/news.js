@@ -1,4 +1,8 @@
 const newsList = [
+  {
+    date: '2023.5.24',
+    body: `令和５年度通常総会を開催しました。`,
+  },
  {
     date: '2023.4.1',
     body: `<a href="https://www.gakuryokuup.com/">第4回学力向上アプリコンテスト</a>のエントリーを開始しました。<br>
