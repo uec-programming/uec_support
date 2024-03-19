@@ -6,6 +6,7 @@ const newsList = [
     <div style="text-align: center">
      <img src="docs/images/20240302_第2回年次大会.png">
      </div>
+    <img src="docs/images/20240302_第2回年次大会.png" style="display: block; margin: auto;">  
         `,    
   },
   {
