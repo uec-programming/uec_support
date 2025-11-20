@@ -37,7 +37,7 @@ const newsList = [
     date: '2025.3.20',
     body: `<a href="https://www.gakuryokuup.com/">第6回学力向上アプリコンテスト</a>のHPを公開しました。<br>
     エントリー期間は4月1日〜8月31日です。たくさんのご応募をお待ちしております。`,
-  }
+  },
  {
     date: '2024.11.9',
     body: `<a href="https://www.gakuryokuup.com/">第5回学力向上アプリコンテスト</a>の表彰式を11月9日に開催しました。<br>
